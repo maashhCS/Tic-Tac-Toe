@@ -72,6 +72,7 @@ function checkResult(){
     }
     if(checkDraw()){
         winner.innerText = "It's a Draw!";
+        resetButton.style.display = 'block';
     }
 }
 
